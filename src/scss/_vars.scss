@@ -1,0 +1,19 @@
+:root {
+  // base
+  --font-family: "Open Sans", sans-serif;
+  --content-width: 1555px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --light-color: #FFF;
+  --dark-color: #000;
+  --accent-color: #B79163;
+  --section-title-color: #A18460;
+  --menu-icon-color: #3BA9A9;
+  --text-color: #212424;
+  --label-active-color: #979086;
+  --bg-color: #F5F5F5;
+  --primary-dropdown-color: #E7E3DA;
+  --active-dropdown-color: #CCC3AF;
+}
