@@ -71,10 +71,15 @@ p {
   }
 }
 
-.container {
+.site-container {
+  position: relative;
+  width: 100%;
+}
+
+.main {
   margin: 0 auto;
-  padding: 0 var(--container-offset);
-  max-width: var(--container-width);
+  width: 100%;
+  max-width: 1160px;
 }
 
 #scrollPath {
