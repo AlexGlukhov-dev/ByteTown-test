@@ -1,3 +1,41 @@
 <section class="feedback">
-
+  <div class="feedback__container  container">
+    <h2 class="feedback__title">Рекомендуем попробовать</h2>
+    <div class="feedback__icons">
+      <svg width="43" height="40" viewBox="0 0 43 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="21.4285" cy="10" r="9.5" stroke="#3BA9A9"/>
+        <path d="M40.7581 34.3146C41.6179 35.6101 42.1501 37.4535 42.308 39.0512C42.3301 39.2749 42.1467 39.4999 41.8571 39.4999H21.4286H0.951227C0.674778 39.4999 0.497464 39.2955 0.503368 39.0902C0.54403 37.6765 0.952986 36.2664 1.72743 34.9158C2.66153 33.2867 4.1102 31.7748 6.00503 30.4782C7.8995 29.1818 10.1936 28.1326 12.7556 27.3986C15.3171 26.6647 18.0881 26.2628 20.9045 26.2184C23.7209 26.1739 26.5207 26.488 29.1379 27.1406C31.7556 27.7933 34.1316 28.7698 36.1283 30.0069C38.1255 31.2443 39.6946 32.7121 40.7581 34.3146Z" stroke="#3BA9A9"/>
+      </svg>
+      <svg width="38" height="48" viewBox="0 0 38 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5.87556 20.0944C5.87556 28.7098 12.8153 35.6887 21.3693 35.6887C29.9233 35.6887 36.863 28.7098 36.863 20.0944C36.863 11.4789 29.9233 4.5 21.3693 4.5C12.8153 4.5 5.87556 11.4789 5.87556 20.0944Z" stroke="#3BA9A9"/>
+        <line y1="-0.5" x2="15.7372" y2="-0.5" transform="matrix(-0.65913 0.752029 0.747913 0.663797 11.3728 32.1652)" stroke="#3BA9A9"/>
+      </svg>
+      <svg width="42" height="48" viewBox="0 0 42 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5.41343 43.1936L1.2357 22.0355C1.11365 21.4174 1.58671 20.8418 2.21676 20.8418H39.7234C40.3602 20.8418 40.8348 21.429 40.7012 22.0516L36.1602 43.2098C36.0612 43.6707 35.6538 43.9999 35.1824 43.9999H6.39449C5.91688 43.9999 5.50595 43.6622 5.41343 43.1936Z" stroke="#3BA9A9"/>
+        <path d="M11.52 25.0528C11.52 -3.01762 30.4488 -3.01761 30.4488 25.0528" stroke="#3BA9A9"/>
+      </svg>
+      <svg width="30" height="48" viewBox="0 0 30 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 16C8.73056 16 15 23.1631 15 32C15 23.1631 21.2694 16 29 16" stroke="#3BA9A9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="24" cy="24" r="19.5" stroke="#3BA9A9"/>
+        <path d="M38.0743 23.6288C31.0195 23.6288 25.3011 27.4435 25.3011 32.1473M38.0743 23.6288C31.0195 23.6288 25.3011 19.8141 25.3011 15.1103M38.0743 23.6288L10.6667 23.6294" stroke="#3BA9A9" stroke-width="0.8" stroke-miterlimit="10"/>
+      </svg>
+    </div>
+    <form class="feedback-form" autocomplete="off">
+      <div class="feedback-form__input-group">
+        <input class="feedback-form__input" id="input-name" type="text" name="name" autocomplete="off" data-input>
+        <label class="feedback-form__label" for="input-name">Ваше имя *</label>
+      </div>
+      <div class="feedback-form__input-group">
+        <input class="feedback-form__input" id="input-phone" type="tel" name="phone" autocomplete="off" data-input>
+        <label class="feedback-form__label tel-label" for="input-phone">Телефон *</label>
+      </div>
+      <div class="feedback-form__input-group">
+        <input class="feedback-form__input input-email" id="input-email" type="comment" name="comment" autocomplete="off" data-input>
+        <label class="feedback-form__label" for="input-email">Комментарий</label>
+      </div>
+      <button class="btn-reset feedback-form__btn" type="submit">Отправить</button>
+    </form>
+  </div>
 </section>

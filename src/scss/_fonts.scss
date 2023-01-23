@@ -1,3 +1,4 @@
 @import "./mixins/font-face";
 
 @include font-face("Manrope", "../fonts/Manrope", 500, normal);
+@include font-face("Grafita", "../fonts/Grafita", 500, normal);
