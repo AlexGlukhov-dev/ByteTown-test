@@ -1,15 +1,21 @@
+import { blockOne, blockTwo, blockThree } from "../_vars";
+
 const header = document.querySelectorAll('.header')
 const rotated = document.querySelectorAll(".header__logo");
 const secondBlock = document.querySelector('.feedback')
 const headerHeight = 94
 
-function setHeader () {
+const setWidthHeader = () => {
+  const scrollPoint = window.scrollY + headerHeight
+}
+
+const setHeader = () => {
   const scrollPoint = window.scrollY + headerHeight
 
-  let blockPoint = headerHeight - (scrollPoint - secondBlock.offsetTop)
+  let blockPoint = headerHeight - (scrollPoint - blockTwo.offsetTop)
   if (blockPoint <= 0) blockPoint = 0
-  if (scrollPoint > secondBlock.offsetTop) {
-    header[0].style = `max-height: ${blockPoint ? blockPoint - 8 : blockPoint}px; padding-bottom: 0;`
+  if (scrollPoint > blockTwo.offsetTop) {
+    header[0].style = `max-height: ${blockPoint}px; padding-bottom: 0;`
   } else {
     header[0].style = `max-height: ${headerHeight + 64}px;`
   }
